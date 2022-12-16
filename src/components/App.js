@@ -3,17 +3,7 @@ import '../styles/App.css';
 const App = () => {
 
   const handleInput = (event) => {
-    // if (event.target.value == 'k')  
-    if (event.target.id = "text-input") {
-      // event.target.value = 'ok';
-      console.log(event.target.value);
-      return;
-    }
-    // if (event.target.value == 5) {
-    else if (event.target.id = "num-input") {
-      // event.target.value = 15;
-      console.log(event.target.value);
-    }
+    console.log(`Input in #${event.target.id} is ${event.target.value}`)
   }
 
   // do not change id of input elements
